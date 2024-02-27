@@ -1,4 +1,12 @@
+![Picture2](https://github.com/Golnaz-spa/Credit-Score-Prediction-Using-Deep-Learning-Model/assets/93345507/69a325d4-952f-4b49-b196-2c59c9223101)
+
+Fig1. Architecture of Hybrid Model (LSTM-GRU) 
+
+
 # Credit Score Prediction Using Deep Learning Models
+
+## Article Link
+[Link to the Article](https://ieeexplore.ieee.org/abstract/document/10371827)
 
 ## Purpose
 The purpose of this code is to predict credit scores based on historical loan data using deep learning models. The code implements several deep learning architectures including Convolutional Neural Networks (CNN), Gated Recurrent Units (GRU), Long Short-Term Memory (LSTM), and two hybrid models include (CNN-LSTM and LSTM-GRU). 
