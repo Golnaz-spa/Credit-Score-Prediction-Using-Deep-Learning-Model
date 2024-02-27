@@ -1,4 +1,4 @@
-![Picture2](https://github.com/Golnaz-spa/Credit-Score-Prediction-Using-Deep-Learning-Model/assets/93345507/69a325d4-952f-4b49-b196-2c59c9223101)
+<img src="LSTM-GRU.png" width=50% height=50%>
 
 Fig1. Architecture of Hybrid Model (LSTM-GRU) 
 
@@ -46,5 +46,25 @@ Deep learning models are used in this project due to their ability to automatica
 6. **Evaluation**:
    - Calculate and print evaluation metrics such as accuracy, ROC AUC score, F1 score, precision, recall, and confusion matrix for each model.
 
-7. **Conclusion**:
+
+7. **Results**:
+   Based on the provided confusion matrix for the LSTM-GRU model:
+
+      True Positive (TP): 9685
+      False Positive (FP): 509
+      True Negative (TN): 82993
+      False Negative (FN): 70
+
+
+Following table presents the performance metrics of different ML models, including Random Forest, SVM, XGBoost, CNN, GRU, LSTM, CNN-LSTM, and LSTM-GRU, in predicting the target variable. We assessed the performance of each model by considering AUC, F1 score, precision, and recall. The results indicate that the LSTM-GRU model outperformed other models in all performance metrics, except for precision. Hybrid model (LSTM-GRU) achieves an AUC score of 0.98, F1 score of 0.98, recall score of 0.99, and precision score of 0.96. AUC is considered the most important metric in credit score prediction, as it offers an assessment of the model’s capacity to differentiate between good and bad credit applicants. The LSTM-GRU model achieves the highest AUC score of 0.98, indicating its superior performance in predicting credit scores compared to other models.
+
+<img src="results.png" width=50% height=50%>
+
+Fig 2 depicts the importance scores of our dataset. The results show that a few features have considerably high importance, whereas most other features are negligible in their contribution to the model.
+
+<img src="feature_imp.png" width=70% height=70%>
+
+Fig 2. Feature importance of the dataset
+
+9. **Conclusion**:
    - The code concludes by providing evaluation results for each implemented model.
